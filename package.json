@@ -2,7 +2,8 @@
   "name": "nodejs-hw-mongodb",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "type": "module",
+  "main": "src/index.js",
   "scripts": {
     "lint": "eslint src/**/*.js",
     "start": "node ./src/index.js",
@@ -18,5 +19,12 @@
   "bugs": {
     "url": "https://github.com/oleksiiburlakov/nodejs-hw-mongodb/issues"
   },
-  "homepage": "https://github.com/oleksiiburlakov/nodejs-hw-mongodb#readme"
+  "homepage": "https://github.com/oleksiiburlakov/nodejs-hw-mongodb#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.16.1",
+    "pino-http": "^10.5.0"
+  }
 }
